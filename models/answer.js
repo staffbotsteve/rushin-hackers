@@ -14,6 +14,6 @@ module.exports = function(sequelize, DataTypes) {
     Answer.belongsToMany(models.Choice, {
       through: "AnswerChoices"
     });
-    return Answer;
   };
+  return Answer;
 };
