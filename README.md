@@ -1,37 +1,33 @@
-# Unit 14: Full-Stack
+# COVID-19 Survey
 
 ## Overview
-In the previous unit, we modularized our applications following the MVC paradigm and integrated a custom ORM into the Model layer. Like all things in software development, when we find ourselves repeating a task, we look for programmatic solutions. Because the implementation of object-relational mapping is a common task in full-stack web development, third-party libraries emerged to do the heavy-lifting for us. In this unit we will integrate Sequelize, a popular Node.js ORM, into our newly modularized applications.
+ COVID-19 has presented different physical and emotional responses to the pandemic.  Our application will gather responses to create data sets so that we may see each of these data and their variances depending on the user’s selection.
+ 
+## User Story
+## Deployment
+* [Heroku Deployment)](https://frozen-chamber-98897.herokuapp.com/)
 
-## Key Topics
-* Sequelize
-* sequelize-cli
-* CRUD
-* Models
-* Validations
-* Associations
+## Questions asked
+* Have you had COVID-19?
+* When did you had COVID-19?
+* What is your gender?
+* What is your profession?
+* Do you have children?
+* How many children do you have?
+* Do you normally work in an office or at home?
+* After COVID-19, do you work in an office or at home?
+* Do you feel your working performance improved or degraded while working from home?
+* Has your economic status been affected by COVID 19?
+* Did you experience shelter-in-place/shutdown?
+* How long were you in shelter-in-place?
+* Are you feeling anxious while staying at home?
+* Are you feeling depressed while staying at home?
+* Do you think it is fair for those who do not or cannot work that they receive extra money in unemployment benefits?
+* When do you think your country's economy will return to normal, pre-pandemic production?
 
-## Comprehension Check
-You will be employer-ready if you can answer the following questions:
-1. What is a Model? 
-2. What are two approaches to using Sequelize in a full-stack web application? 
-3. How does one perform joins using Sequelize?
+## User Story
+* AS A SCIENTIST, I WANT TO COLLECT DATA REGARDING PHYSICAL, EMOTIONAL, AND MISCELLANEOUS OPINIONS AND EXPERIENCES FROM ANONYMOUS RESPONDENTS TO A SURVEY ABOUT COVID-19
+* IN ORDER TO COLLECT THE DATA, I WANT A SURVEY TO BE PUBLISHED ON A SITE AND COLLECT THE DATA
+* THE AUDIENCE WILL GO TO A WEBSITE AND ANSWER QUESTIONS (LISTED BELOW)
+* MY FELLOW SCIENTISTS AND I WILL USE DASHBOARDS THAT AGGREGATE AND SEGREGATE DATA BASED UPON OUR SELECTIONS
 
-## Learning Objectives
-You will be employer-competitive if you are able to:
-* Configure a full-stack web application to use the Sequelize ORM library
-* Define models that POST data using validations
-* Define models that GET data using validations
-* Implement CRUD methods using Sequelize
-* Implement Sequelize associations to join one or more tables
-* Configure Heroku for deployment of an application using Sequelize
-
-## Homework: Reverse Engineer
-* In this assignment, you will reverse engineer the starter code provided and create a tutorial for the code. Begin inspecting the code to get an understanding of each file's responsibility. Then, in a Google Doc, write a tutorial explaining *every* file and its purpose.
-
-## Helpful Links
-* [Sequelize Queries](http://docs.sequelizejs.com/en/latest/docs/querying/)
-* [Sequelize Associations Part 1](http://docs.sequelizejs.com/en/latest/docs/associations/)
-* [Sequelize Association Part 2](http://docs.sequelizejs.com/en/latest/api/associations/)
-* [Sequelize Migrations](http://docs.sequelizejs.com/en/latest/docs/migrations/)
-* [bcrypt (NPM)](https://www.npmjs.com/package/bcrypt)
